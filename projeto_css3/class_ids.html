@@ -3,9 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tipos de Style</title>
-    <!--Internal style sheet: é add dentro da tag "head". 
-        Para utilizar essa formatação utiliza-se SELETORES (são as tags que você deseja formatar) ao utilizar um seletor a formatação se aplica em todas as tags do arquivo-->
+    <title>Class and IDs</title>
     <style type="text/css">
     /*Class: pode ser utilizado para definir elementos da mesma classificação
     ID: é utilizado para definir elementos únicos*/
@@ -13,18 +11,38 @@
             background-color: brown; 
             text-align: center;
         }
+
+        p {
+            color: red
+        }
+    /*Class são utilizadas geralmente para exceções*/
+        .verde {
+            color: green;
+        }
+    /*ID é utilizado apena 1 vez dentro da página, ele é utilizado para estruturar a página*/
+        #principal {
+            background-color:cornsilk ;
+        }
     </style>
 </head>
-<body>
+<body id="principal">
     <h1>
         Estilo CSS (Cascading Style Sheets)
     </h1>
-    <!--Inline Style: você add stilo direto no codigo-->
-    <p style="color: red;">
+    <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+    </p>
+    <p class="verde">
         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
     </p>
 
+    <h1>
+        Formatação
+    </h1>
     <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+    </p>
+    <p class="verde">
         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
     </p>
 </body>
