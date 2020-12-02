@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Div and Span</title>
+    <style type="text/css">
+        #topo {
+            background-color: bisque;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #conteudo {
+            background-color: brown;
+        }
+
+        .produto {
+            background-color: red;
+            margin: 10px;
+        }
+        #rodape {
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <!--Div são utilizadas para dividir e estruturar o site-->
+    <!--Div são elementos do tipo block e ocupam todo o -->
+    <div id="topo">
+        <img src="https://cdn2.downdetector.com/static/uploads/logo/amazon.png" alt="logo amazon" width="200">
+        <ul>
+            <li>Home</li>
+            <li>Produto</li>
+            <li>Contato</li>
+        </ul>
+    </div>
+    <div id="conteudo">
+        <div class="produto">
+            Produto 1
+        </div>
+        <div class="produto">
+            Produto 2
+        </div>
+        <div class="produto">
+            Produto 3
+        </div>
+    </div>
+    <div id="rodape">
+        Todos os direitos reservados
+    </div>
+</body>
+</html>
