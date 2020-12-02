@@ -20,14 +20,19 @@
             background-color: red;
             margin: 10px;
         }
+
         #rodape {
             background-color: aqua;
+        }
+
+        #direito {
+            background-color: brown;
         }
     </style>
 </head>
 <body>
     <!--Div são utilizadas para dividir e estruturar o site-->
-    <!--Div são elementos do tipo block e ocupam todo o -->
+    <!--Div são elementos do tipo block e ocupam todo o espaço da tela-->
     <div id="topo">
         <img src="https://cdn2.downdetector.com/static/uploads/logo/amazon.png" alt="logo amazon" width="200">
         <ul>
@@ -48,7 +53,8 @@
         </div>
     </div>
     <div id="rodape">
-        Todos os direitos reservados
+        Todos os <span id="direito">direitos</span> reservados
     </div>
+    <!-- Span é chamado de elemento do tipo inline, pois permite que os elementos fiquem um ao lado do outro. Essa tag é recomendada caso você queira fazer formatações expecificas no texto. -->
 </body>
 </html>
