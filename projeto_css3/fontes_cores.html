@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes e Cores</title>
+    <style type="text/css">
+        h1{
+            border: 5px 5px 5px 5px;
+            border-color: black;
+            border-style: double;
+            /* A tag font-family serve para modificar o estilo da fonte. Existe 2 tipos de fontes a generica e as especificas. É recomendado utilizar de 2 a 3 especificas antes de utilizar uma generica. */
+            /* https://www.w3schools.com/css/css_font.asp */
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .estilo_fonte {
+            /* font-weight define o peso da fonte */
+            font-weight: bolder;
+            font-style: italic;
+            text-decoration: underline;
+        }
+        .texto {
+            text-align: center;
+        }
+        .paragrafo {
+            /* px -> tamanho fixo
+               % -> tamanho relativo ao tamanho padrão adotado pelos browser
+               em -> tamanho relativo ao container pai */
+            /* https://www.w3schools.com/cssref/css_units.asp */
+            font-size: 20px;
+            color: brown;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="texto">
+        <h1>Tradução de 1914 por H. Rackham</h1>
+        <p class="paragrafo">"But I must <span class="estilo_fonte">explain</span> to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"</p>
+    </div>
+    
+</body>
+</html>
