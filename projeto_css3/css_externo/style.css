@@ -1,0 +1,17 @@
+#principal {
+    text-align: center;
+    background-image: url('https://s.aficionados.com.br/imagens/guia-de-temporadas-de-dragon-ball-z-todas-as-sagas-episodios-e-personagens_f.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.titulo {
+    background-color: chocolate;
+    border: 2px solid black;
+}
+
+p {
+    border: 2px solid black;
+    color: white;
+    background-color: chocolate;
+}

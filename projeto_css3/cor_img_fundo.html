@@ -6,13 +6,16 @@
     <title>Cor e Imagem de Fundo</title>
     <style type="text/css">
         body {
+            /* Utilizando a propriedade background é possivel utilizar uma cor de fundo com uma imagem. 
+            ex: background: cor url(''); */
             background-image: url('https://images.wallpapersden.com/image/download/mortal-kombat-11-logo_a2lnaGeUmZqaraWkpJRnamtlrWZpaWU.jpg');
             /* Para que a imagem não se repita ao longo do seu site utilizamos a tag abaixo. Você também mudar para que ela se repita na vertical utilizando "repeat-y" ou na horizontal utilizando "repeat-y"  */
             background-repeat: no-repeat;
             border-top: 5px solid rgb(185, 129, 7);
             /* background-attachment serve para que a imagem siga a barra de rolagem ou fique fixa */
             background-attachment: fixed;
-            background-position: center;
+            /* A propriedade abaixo recebe 2 propriedades a primeiro ajusta na horizontal e a segunda na vertical */
+            background-position: center center;
             margin: 0;
         }
 
