@@ -1,0 +1,28 @@
+/*
+        Padding: Espaçamento interno
+        Margin: Espaçamento externo 
+    */
+.conteudo {
+    padding: 20px 20px 20px 5px;
+    border: 1px solid red;
+    margin: 5px;
+    width: 300px;
+}
+
+.conteudo2 {
+    padding: 20px 20px 20px 5px;
+    border: 1px solid red;
+    margin: 15px;
+    width: 300px;
+}
+
+/*margin collapse - quando temos 2 elementos um abaixo do outro com margins diferentes o maior margin será aplicada */
+
+img {
+    display: block;
+    margin: auto;
+}
+
+h3 {
+    margin: 0;
+}
