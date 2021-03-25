@@ -1,0 +1,12 @@
+.conteudo {
+    background: rgb(156, 148, 99);
+    border: 1px solid red;
+    width: 200px;
+    height: 50px;
+    float: right;
+    text-align: center;
+}
+/*Especifica se um elemento pode ter elemento flutuantes ao seu lado ou se devem ser movido para baixo dele.*/
+.clear {
+    clear: both;
+}
